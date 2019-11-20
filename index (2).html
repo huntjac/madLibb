@@ -1,0 +1,77 @@
+<!-- 
+  FIRST:   Play one of the madlibs from this site: https://www.madtakes.com/index.php
+
+  SECOND: Create your own madlib site. You can create your own story or use one from this site.
+
+  REQUIREMENTS: The page must be STYLED!! Make it colorful, pretty, full of CSS and HTML goodness on top of wonderful JS.  Show off all you can do!
+
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1> Mad Lib </h1>
+    <h4> Fill in the Blanks</h4>
+    <form id="myForm">
+      <span>Noun:</span>
+      <input type="text" name="1Noun" id ="Noun">
+      <br>
+      <br>
+      <span>Noun:</span>
+      <input type="text" name="2Noun" id="secondNoun">
+      <br>
+      <br>
+      <span>Noun</span> 
+      <input type="text" name="3Noun" id="thirdNoun">
+      <br>
+      <br>
+      <span>Occupation</span>
+      <input type="text" name="1Job" id="yourJob">
+      <br>
+      <br>
+      <span>Verb</span>
+      <input type="text" name="1Verb" id="Verb">
+      <br>
+      <br>
+      <span>Place<span>
+      <input type="text" name="1Place" id="yourPlace">
+      <br>
+      <br>
+      <span>Verb ending in "ed"</span>
+      <input type="text" name="2Verb" id="secondVerb">
+      <br>
+      <br>
+      <span>Noun</span>
+      <input type="text" name="4Noun" id="fourthNoun">
+      <br>
+      <br>
+      <span>Verb ending in "ing"</span>
+      <input type="text" name="3Verb" id="thirdVerb">
+      <br>
+      <br>
+      <span>Noun (Plural)</span>
+      <input type="text" name="5Noun" id="fifthNoun">
+      <br>
+      <br>
+      <span>Noun</span>
+      <input type="text" name="6noun" id="sixthNoun">
+      <br>
+      <br>
+      <span>Emotion</span>
+      <input type="text" name="1feel"  id="yourFeel">
+      <br>
+      <br>
+      <input type="button" value="Submit" onclick="dotheStuff()">
+
+    </form> 
+    <script src="script.js"></script>
+  </body>
+</html>
